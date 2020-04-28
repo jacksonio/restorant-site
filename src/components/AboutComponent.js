@@ -8,7 +8,7 @@ import {
   Media
 } from "reactstrap";
 import { Link } from "react-router-dom";
-import { FadeTransform, Fade, Stagger } from "react-animation-components";
+import {  Fade, Stagger } from "react-animation-components";
 
 import { Loading } from "./LoadingComponent";
 import { baseUrl } from "../shared/baseUrl";

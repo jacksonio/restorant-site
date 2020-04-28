@@ -7,7 +7,7 @@ import {
   Col,
   Label
 } from "reactstrap";
-import { Control, Form, Errors, actions } from "react-redux-form";
+import { Control, Form, Errors } from "react-redux-form";
 
 import { Link } from "react-router-dom";
 
@@ -87,7 +87,7 @@ class Contact extends Component {
               >
                 <i className="fa fa-phone"></i> Call
               </a>
-              <a role="button" className="btn btn-info">
+              <a href="tel:+85212345678" role="button" className="btn btn-info">
                 <i className="fa fa-skype"></i> Skype
               </a>
               <a
